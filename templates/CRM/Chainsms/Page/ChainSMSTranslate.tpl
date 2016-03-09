@@ -32,11 +32,11 @@ To translate a batch of messages, select an SMS Mailing from the following list<
     <td style="width: 50%"><em>This is only used to set the Group Ids in the field below.</em></td>
 </tr>
 <tr><td>Group Ids</td><td><input id="GroupIds" type="text" size="50" class="inputField"></input></td><td><em>List of group ids separated by a comma e.g. 123,456.</em></td></tr>
-<tr><td>Translating Start Date</td><td><input id="StartDate" type="text" size="50" class="inputField"></input></td><td><em>No processing before this day. e.g. 2012-11-25.</em></td></tr>
-<tr><td>Translating Limit Date</td><td><input id="LimitDate" type="text" size="50" class="inputField"></input></td><td><em>No processing after this day - keep this as tight as possible! e.g. 2012-11-27.</em></td></tr>
+<tr><td>Translation Start Date</td><td><input id="StartDate" type="text" size="50" class="inputField"></input></td><td><em>Won't process responses before this day. e.g. 2012-11-25.</em></td></tr>
+<tr><td>Translation End Date</td><td><input id="LimitDate" type="text" size="50" class="inputField"></input></td><td><em>Won't process responses after this day - keep this as tight as possible! e.g. 2012-11-27.</em></td></tr>
 
 <tr>
-    <td>TranslationTypes</td>
+    <td>Translation Type</td>
     <td>
         <select id="TranslatorClass" class="inputField">  
             <option group_id="">- select -</option>
