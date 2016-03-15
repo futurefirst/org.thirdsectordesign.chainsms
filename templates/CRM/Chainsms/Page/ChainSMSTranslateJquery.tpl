@@ -133,5 +133,8 @@
 	}
 	
 	jQuery('.inputField').change(setButtonVisibility);
+
+        cj('#StartDate').datepicker({dateFormat: 'yy-mm-dd', showOn: 'focus'});
+        cj('#LimitDate').datepicker({dateFormat: 'yy-mm-dd', showOn: 'focus'});
 </script>
 {/literal}
